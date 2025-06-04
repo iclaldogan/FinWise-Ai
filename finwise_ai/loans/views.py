@@ -3,6 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.http import JsonResponse
 from django.utils import timezone
+from django.db import models
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 from .models import Loan, LoanType, LoanPayment, LoanEligibility

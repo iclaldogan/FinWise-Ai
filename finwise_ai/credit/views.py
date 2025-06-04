@@ -322,9 +322,9 @@ def credit_score_comparison(request):
     
     # Get user's age group
     user_profile = request.user.profile if hasattr(request.user, 'profile') else None
-    if user_profile and user_profile.birth_date:
+    if user_profile and user_profile.date_of_birth:
         today = timezone.now().date()
-        age = today.year - user_profile.birth_date.year - ((today.month, today.day) < (user_profile.birth_date.month, user_profile.birth_date.day))
+        age = today.year - user_profile.date_of_birth.year - ((today.month, today.day) < (user_profile.date_of_birth.month, user_profile.date_of_birth.day))
         
         if age < 30:
             age_group = '18-29'
