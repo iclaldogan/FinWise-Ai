@@ -17,11 +17,13 @@ FinWise AI is a comprehensive fintech web application built with Django that hel
 1. Extract the zip file to your preferred location
 2. Open a terminal/command prompt
 3. Navigate to the extracted directory
-4. Run the start script:
-   - On Windows: Double-click `start_server.bat` or run it from the command line
-   - On macOS/Linux: Run `./start_server.sh` in the terminal
+4. Run the setup script to install dependencies:
+   - `./setup.sh`
 
-5. Open your browser and go to: http://127.0.0.1:8000/
+5. Start the server:
+   - `./start_server.sh`
+
+6. Open your browser and go to: http://127.0.0.1:8000/
 
 ## Demo Account
 A demo account is pre-configured with sample data:
