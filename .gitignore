@@ -1,0 +1,19 @@
+# Python derlemeleri
+__pycache__/
+*.py[cod]
+
+# Django çalışma dosyaları
+*.sqlite3
+db.sqlite3
+*.log
+
+# Sanal ortamlar
+venv/
+env/
+
+# IDE / işletim sistemi artıkları
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
