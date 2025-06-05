@@ -44,5 +44,6 @@ class PasswordResetAdmin(admin.ModelAdmin):
 
 
 admin.site.register(User, UserAdmin)
+admin.site.register(UserProfile)
 admin.site.register(EmailVerification, EmailVerificationAdmin)
 admin.site.register(PasswordReset, PasswordResetAdmin)
